@@ -1,0 +1,34 @@
+Algoritmo sin_titulo
+	x=0
+	n=0
+	suma=0
+	sumapar=0
+	cantidad=0
+	nroimpares=0
+	
+	escribir" digite la cantidad de numeros a ingresar"
+	Leer cantidad
+	mientras x<= cantidad Hacer
+		
+		Escribir "ingrese numero " , x
+		leer n
+		suma=suma+n
+		si(n%2==0) entonces
+			sumapar=sumapar+n
+		sino
+			nroimpares=nroimpares+1
+			Escribir "la cantidad de impares son",nroimpares
+			
+		FinSi
+		x=x+1
+		
+	FinMientras
+	
+	Escribir "la suma de los numeros ", suma
+	
+	
+	Escribir "la suma de los numeros pares es ",sumapar
+	
+FinAlgoritmo
+	
+	

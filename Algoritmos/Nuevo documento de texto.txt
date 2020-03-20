@@ -1,0 +1,27 @@
+Algoritmo sin_titulo
+	a="solucionar 3calificaciones y sacar el promediodel estudiante. validar que las calificaciones esten entre 0y5"
+	n1=0
+	n2=0
+	n3=0
+	promedio=0
+	
+	escribir"digite sus 3 calificaciones" 
+	leer n1,n2,n3
+	Mientras(n1>5 o n2<0) Hacer
+		escribir"nota uno no valida, vuelva a intentarlo"
+		Leer n1
+		
+	FinMientras
+	
+	Mientras (n2>5 o n2<0) Hacer
+		Escribir "nota uno no valida, vuelva a intentarlo"
+		Leer n2
+	FinMientras
+	
+	Mientras (n3>5 o n3<0) Hacer
+		Escribir "nota uno no valida, vuelva a intentarlo"
+		Leer n3
+	FinMientras
+	promedio=(n1+n2+n3)/3
+	Escribir "la nota final del mongolo:", promedio
+FinAlgoritmo
